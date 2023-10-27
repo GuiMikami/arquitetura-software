@@ -1,0 +1,22 @@
+
+Facilidade ao acesso, ao inves de instanciar todos os objetos na classe principal, criamos uma classe para gerar o relátorio e instanciar ela na principal.
+Facilitar sistema com um framework ou subsistema.
+
+
+Os principais benefícios de usar o Padrão de Fachada incluem:
+
+Simplificação do código do cliente: Os clientes do sistema não precisam estar cientes de sua estrutura interna e
+podem trabalhar com uma única interface fácil de entender fornecida pela fachada.
+
+Promoção da desacoplação: A fachada isola o código do cliente de alterações no sistema subjacente, reduzindo as dependências e
+tornando mais fácil manter e modificar o sistema sem afetar os clientes.
+
+Melhoria da legibilidade e da manutenção: Ao fornecer uma interface clara e bem definida, a base de código se torna mais
+organizada e mais fácil de manter.
+
+Permitir a expansão do sistema: Novos recursos ou componentes podem ser adicionados ao sistema sem afetar o código do cliente,
+desde que a interface da fachada permaneça consistente.
+
+Em resumo, o Padrão de Fachada é um padrão de design usado no desenvolvimento de software para simplificar sistemas complexos,
+fornecendo uma interface simplificada e unificada para os clientes, permitindo que eles interajam com o sistema sem precisar entender seu funcionamento interno.
+Isso promove a manutenção do código e reduz as dependências entre diferentes partes do sistema.
